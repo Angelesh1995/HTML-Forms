@@ -76,9 +76,13 @@ html{
   background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/ecosystem_logos_new-a1ca21cc.png);
   background-position: 0px 30px;
 }
-.ul{
-  padding-left: 0;
-  margin-top: 0;
+
+ul{
+  list-style-type: none;
+}
+
+li{
+  display:inline-block;
 }
 
 .form-container{
