@@ -1,0 +1,19 @@
+
+html{
+  font-size: 10px;
+  font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+header{
+margin-top:0;
+background: #eceef1;
+}
+
+.container{
+  background: #eceef1;
+}
+
+.sign{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: end;
+}
