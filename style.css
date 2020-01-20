@@ -1,3 +1,13 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: inherit;
+  font-family: 'Roboto';
+  color: rgb(82, 82, 82);
+}
 
 html{
   font-size: 10px;
