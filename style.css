@@ -60,14 +60,14 @@ html{
   width: 70px;
   height: 30px;
   background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/ecosystem_logos_new-a1ca21cc.png);
-  background-position: -250px 30px;
+  background-position: -254px 30px;
 }
 
 .logo-2{
-  width: 70px;
+  width: 125px;
   height: 30px;
   background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/ecosystem_logos_new-a1ca21cc.png);
-  background-position: 100px 30px;
+  background-position: -115px 30px;
 }
 
 .logo-3{
@@ -76,7 +76,14 @@ html{
   background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/ecosystem_logos_new-a1ca21cc.png);
   background-position: 0px 30px;
 }
+<<<<<<< HEAD
 .ul{
   padding-left: 0;
   margin-top: 0;
+=======
+
+.form-container{
+  display: flex;
+  
+>>>>>>> 2986e7bb8ac7997198cc23999fa9514a94ea4bdb
 }
