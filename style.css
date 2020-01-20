@@ -5,13 +5,13 @@
   margin: 0;
   box-sizing: border-box;
   font-size: inherit;
-  font-family: 'Roboto';
+  font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
   color: rgb(82, 82, 82);
 }
 
 html{
   font-size: 10px;
-  font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
+  /* font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif; */
 }
 header{
 margin-top:0;
