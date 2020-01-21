@@ -85,13 +85,29 @@ li{
   display:inline-block;
 }
 
-.field{
-  display: flex; 
-   flex-direction: column;
-   flex-wrap: wrap;
-   justify-content: center;
-}
 .form-container{
-  margin: 0 auto;
-  border-style: solid;
+  border: 1px solid #afafaf;
+  border-radius:2px;
+  background: #fff;
+  display:flex;
+  justify-content: center;
 }
+
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+ .top-text{
+  margin:0 auto;
+  border: none;
+  display: flex; 
+  flex-direction: column;
+}
+
+fieldset{
+  border: none;
+  display: flex; 
+  flex-direction: column;
+} 
