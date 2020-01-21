@@ -85,6 +85,13 @@ li{
   display:inline-block;
 }
 
+.field{
+  display: flex; 
+   flex-direction: column;
+   flex-wrap: wrap;
+   justify-content: center;
+}
 .form-container{
-  display: flex;  
+  margin: 0 auto;
+  border-style: solid;
 }
