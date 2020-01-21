@@ -124,7 +124,7 @@ form{
   margin: 0 auto;
 }
 
-.top-text a{
+a{
   font-size: 11px;
   color: #0077c5;
   text-decoration: none;
@@ -141,6 +141,28 @@ fieldset{
   display:grid;
   align-items: center;
   justify-items: center;
+}
+form label{
+  font-size: 13px;
+  color: #404040;
+  font-weight: 400px;
+  line-height: 50px;
+}
 
+footer{
+  background: #eceef1;
+  text-align: center;
+  color: #505050;
+  line-height: 18px;
+}
+.form-footer{
+  background-color: #eceef1;
+  margin: 32px -30px -30px;
+  padding: 20px;
+  text-align: center;
+}
 
+.create-account{
+  text-align: center;
+  padding: 28px 14px 20px 14px;
 }

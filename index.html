@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <title>FORMS</title>
 </head>
 
@@ -38,31 +39,37 @@
         <section>
           <div class="form-container">
             <form>
-              <fieldset class="field">
+              <div class="field">
               <div class="top-text">
                 <span>Create an Intuit account</span>
                 <p>One account for everything Intuit, including Mint. </p>
                 <a href="https://accounts-help.lc.intuit.com/questions/1582580-creating-an-account" target="_blank">Learn more</a>
               </div>
               <fieldset>
-                <label>Email Address
-                  <input type="email" name="email-address" id="email" placeholder="name@domain.com" required>
+                <label for="email">Email Address
                 </label>
-                <label>Phone Number (Recommended)
-                  <input type="number" name="phone-number" id="number">
+                  <input type="email" name="email-address" id="email" placeholder="name@domain.com" required>
+                
+                <label for="text">Phone (Recommended)
+                </label>
+                  <input type="text" name="phone-number" id="text">
                   <p>Standard call, messaging or data rates may apply.
                   </p>
+                
+                <label for="password">Password
                 </label>
-                <label>Password
                   <input type="password" name="password" id="password" required>
-                </label>
+                
               </fieldset>
               <fieldset class="account-action">
-                <input class="btn" type="submit" name="submit" value="Create Account">
+                <i class="material-icons">lock</i>
+                <button class="btn" type="submit" name="submit" value="Create Account">
               </fieldset>
+              <div class="create-account">
               <em>By clicking Create account, you agree to our
-                <a href="https://www.mint.com/terms">Terms</a> and have read and acknowledge our <a href="https://www.intuit.com/privacy/">Privacy Statement.</a></em>
-                <div>
+                <a href="https://www.mint.com/terms">Terms</a> and have read and acknowledge our <a href="https://www.intuit.com/privacy/">Privacy Statement.</a></em>   
+             </div>
+                <div class="form-footer">
                   <p>Invisible reCAPTCHA by Google <a href="https://policies.google.com/privacy?hl=en">Privacy Policy</a> and <a href="https://policies.google.com/terms?hl=en">Terms of Use.</a></p>
                 </div>
             </form>
@@ -85,6 +92,7 @@
       <li>Security</li>
     </ul>
     <p>© 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.
+      <br>
       Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
   </footer>
 </body>
