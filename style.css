@@ -20,9 +20,15 @@ html{
 
 .sign-div{
   display:grid;
-  grid-template: 1fr 1fr 1fr;
-  justify-items: end;
+  grid-template: auto/auto auto;
+  justify-content: end;
+  align-items: center;
+  justify-items: center;
   font-size: 1.2rem;
+}
+
+.sign-in-text{
+  padding-right: 10px;
 }
 
 .sign-div a{
@@ -86,14 +92,15 @@ li{
 }
 
 .form-container{
+  margin:0 auto;
   border: 1px solid #afafaf;
   border-radius:2px;
   background: #fff;
-  display:flex;
-  justify-content: center;
+  width:389px;
 }
 
 form{
+  padding: 30px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -128,3 +135,12 @@ fieldset{
   display: flex; 
   flex-direction: column;
 } 
+
+.small-logos{
+  padding:20px;
+  display:grid;
+  align-items: center;
+  justify-items: center;
+
+
+}
