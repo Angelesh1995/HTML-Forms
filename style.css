@@ -133,7 +133,7 @@ form input{
 }
 
 a{
-  font-size: 11px;
+  font-size: 1.2rem;
   color: #0077c5;
   text-decoration: none;
   margin: 0 auto;
@@ -154,19 +154,34 @@ fieldset{
   justify-items: center;
 }
 
+.form-footer{
+  background-color: #eceef1;
+
+  text-align: center;
+  margin: 0px -25px 0px;
+  padding: 20px;
+}
 
 footer{
+  font-size: 1.2rem;
   background: #eceef1;
   text-align: center;
   color: #505050;
   line-height: 18px;
+  padding: 30px;
 }
-.form-footer{
-  background-color: #eceef1;
-  margin: 32px -30px -30px;
-  padding: 20px;
-  text-align: center;
+
+
+/* footer ul{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+} */
+
+footer li{
+  padding: 0px 6px;
+ 
 }
+
 
 .create-btn{
   margin:0 auto;
@@ -185,7 +200,10 @@ footer{
 .btn-type{
   color: white;
 }
+
 .advice{
   text-align: center;
-  padding: 28px 14px 20px 14px;
+  padding: 40px 28px;
+  font-size: 1.2rem;
+  line-height: 2rem;
 }
