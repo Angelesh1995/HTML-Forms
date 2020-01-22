@@ -46,6 +46,10 @@ html{
   justify-content: center;
 }
 
+.logo-container{
+  padding-top: 32px;
+}
+
 .logo-img{
   width: 118px;
   height: 35px;
@@ -114,7 +118,6 @@ form{
   font-size: 14px;
   color: #4c4c4c;
   margin: 0 auto;
-
 }
 
 form label{
@@ -125,11 +128,24 @@ form label{
 }
 
 form input{
-  margin:0 auto;
-  width:320px;
+  width:332px;
   height:35px;
   border: 1px solid #afafaf;
   border-radius: 3px;
+}
+
+.password-box{
+  width:332px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: 1px solid #afafaf;
+  border-radius: 3px;
+  align-items: center;
+}
+
+#password{
+  width:300px;
+  border:none;
 }
 
 a{
@@ -138,6 +154,7 @@ a{
   text-decoration: none;
   margin: 0 auto;
 }
+
 fieldset{
   border: none;
   display: flex; 
@@ -173,13 +190,13 @@ footer{
 footer li{
   padding: 0px 6px;
 }
-.footer-links{
+
+#footer-links{
   color: #505050;
 }
 
 .create-btn{
-  margin:0 auto;
-  width: 318px;
+  width: 332px;
   height:44px;
   background-color: #0077c5;
   border-radius: 4px;
@@ -201,4 +218,14 @@ footer li{
   padding: 40px 28px;
   font-size: 1.2rem;
   line-height: 2rem;
+}
+
+aside{
+  float: right;
+  width: 140px;
+  height:40px;
+  background-color: #6b6b6b;
+  border-radius: 3px;
+  display: grid;
+  align-items: center;
 }

@@ -18,11 +18,11 @@
       <div class="sign-div">
         <div class="sign-in-text">
           <p>Already have an Intuit account?</p>
-          <a>I forgot my User ID or Password</a>
+          <a href="">I forgot my User ID or Password</a>
         </div>
         <button class="sign-in-btn">
           <i class="material-icons btn-type" style="font-size:15px">lock</i>
-          <div class="sign-text" ><span class="btn-type" style="font-size:14px">Sign In</span></div>
+          <div class="sign-text"><span class="btn-type" style="font-size:14px">Sign In</span></div>
         </button>
       </div>
     </header>
@@ -52,7 +52,7 @@
                 <fieldset>
                   <label for="email">Email Address
                   </label>
-                  <input type="email" name="email-address" id="email" placeholder="name@domain.com" required>
+                  <input type="email" name="email-address" id="email" placeholder="" required>
 
                   <label for="text">Phone (Recommended)
                   </label>
@@ -60,14 +60,17 @@
                   <p>Standard call, messaging or data rates may apply.
                   </p>
 
+
                   <label for="password">Password
                   </label>
-                  <input type="password" name="password" id="password" required>
+                  <div class="password-box">
+                    <input class="password" type="password" name="password" id="password" required>
+                    <i class="material-icons" style="font-size:25px; color:gainsboro">lock_open</i>
+                  </div>
 
                 </fieldset>
                 <button class="create-btn">
-                  <!--<i class="fas fa-lock"></i>-->
-                 <i class="material-icons btn-type" style="font-size:medium">lock</i>
+                  <i class="material-icons btn-type" style="font-size:medium">lock</i>
                   <div class="sign-text"><span class="btn-type" style="font-size:16px">Create Account</span></div>
                 </button>
                 <div class="advice">
@@ -76,29 +79,36 @@
                       href="https://www.intuit.com/privacy/">Privacy Statement.</a></em>
                 </div>
               </div>
-                <div class="form-footer">
-                  <p>Invisible reCAPTCHA by Google <a href="https://policies.google.com/privacy?hl=en" target="_blank">Privacy
-                      Policy</a> and <a href="https://policies.google.com/terms?hl=en">Terms of Use.</a></p>
-                </div>
+              <div class="form-footer">
+                <p>Invisible reCAPTCHA by Google <a href="https://policies.google.com/privacy?hl=en"
+                    target="_blank">Privacy
+                    Policy</a> and <a href="https://policies.google.com/terms?hl=en" target="_blank">Terms of Use.</a>
+                </p>
+              </div>
             </form>
+            
           </div>
         </section>
+       
       </div>
-
     </main>
     <footer>
       <ul>
-        <span class="footer-links">
-        <li><a  href="https://www.intuit.com/company/" target="_blank">Legal</a></li>
-        <li><a  href="https://www.intuit.com/privacy/" target="_blank">Privacy</a></li>
-        <li><a  href="https://security.intuit.com/" target="_blank">Security</a></li>
+        <span>
+          <li><a id="footer-links" href="https://www.intuit.com/company/" target="_blank">Legal</a></li>
+          <li><a id="footer-links" href="https://www.intuit.com/privacy/" target="_blank">Privacy</a></li>
+          <li><a id="footer-links" href="https://security.intuit.com/" target="_blank">Security</a></li>
         </span>
       </ul>
       <p>© 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered
         trademarks of Intuit Inc.
         <br>
         Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
+        <aside>
+          <span style="color: ghostwhite; font-size: 14px;">Privacy Settings</span>
+        </aside>
     </footer>
+    
   </div>
 </body>
 
