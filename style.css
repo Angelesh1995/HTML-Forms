@@ -156,7 +156,6 @@ fieldset{
 
 .form-footer{
   background-color: #eceef1;
-
   text-align: center;
   margin: 0px -25px 0px;
   padding: 20px;
@@ -171,17 +170,12 @@ footer{
   padding: 30px;
 }
 
-
-/* footer ul{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-} */
-
 footer li{
   padding: 0px 6px;
- 
 }
-
+.footer-links{
+  color: #505050;
+}
 
 .create-btn{
   margin:0 auto;
@@ -199,6 +193,7 @@ footer li{
 
 .btn-type{
   color: white;
+  margin-right: 7px;
 }
 
 .advice{
