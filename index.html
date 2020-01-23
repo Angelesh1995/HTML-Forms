@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <title>FORMS</title>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <div class="sign-div">
+        <div class="sign-in-text">
+          <p>Already have an Intuit account?</p>
+          <a href="">I forgot my User ID or Password</a>
+        </div>
+        <button class="sign-in-btn">
+          <i class="material-icons btn-type" id="btn-icon">lock</i>
+          <span class="btn-type" id="btn-text">Sign In</span>
+        </button>
+      </div>
+    </header>
+    <main>
+      <div class="page">
+        <div class="logo-container">
+          <div class="logo-img"></div>
+        </div>
+        <div class="small-logos">
+          <ul>
+            <li class="logo-1"></li>
+            <li class="logo-2"></li>
+            <li class="logo-3"></li>
+          </ul>
+        </div>
+        <div class="form-container">
+          <form>
+            <div class="field">
+              <div class="top-text">
+                <span>Create an Intuit account</span>
+                <br>
+                <p>One account for everything Intuit, including Mint. </p>
+                <a href="https://accounts-help.lc.intuit.com/questions/1582580-creating-an-account"
+                  target="_blank">Learn more</a>
+              </div>
+              <fieldset>
+                <label for="email">Email Address
+                </label>
+                <input type="email" name="email-address" id="email" placeholder="" required>
+
+                <label for="tel">Phone (Recommended)
+                </label>
+                <input type="tel" name="phone-number" id="tel">
+                <p>Standard call, messaging or data rates may apply.
+                </p>
+
+                <label for="password">Password
+                </label>
+                <div class="password-box">
+                  <input class="password" type="password" name="password" id="password" required>
+                  <i class="material-icons" id="pass-icon">lock_open</i>
+                </div>
+
+              </fieldset>
+              <button class="create-btn">
+                <i class="material-icons btn-type" id="lock-icon">lock</i>
+                <span class="btn-type" id="crt-account">Create Account</span>
+              </button>
+              <div class="advice">
+                <em>By clicking Create account, you agree to our<br>
+                  <a href="https://www.mint.com/terms">Terms</a> and have read and acknowledge our <a
+                    href="https://www.intuit.com/privacy/">Privacy Statement.</a></em>
+              </div>
+            </div>
+            <div class="form-footer">
+              <p>Invisible reCAPTCHA by Google <a href="https://policies.google.com/privacy?hl=en"
+                  target="_blank">Privacy
+                  Policy</a> and <a href="https://policies.google.com/terms?hl=en" target="_blank">Terms of Use.</a>
+              </p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <ul>
+        <li><a id="footer-links1" href="https://www.intuit.com/company/" target="_blank">Legal</a></li>
+        <li><a id="footer-links2" href="https://www.intuit.com/privacy/" target="_blank">Privacy</a></li>
+        <li><a id="footer-links3" href="https://security.intuit.com/" target="_blank">Security</a></li>
+      </ul>
+      <p>© 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered
+        trademarks of Intuit Inc.
+        <br>
+        Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
+      <aside>
+        <span id="priv-sett">Privacy Settings</span>
+      </aside>
+
+    </footer>
+
+  </div>
+</body>
+
+</html>

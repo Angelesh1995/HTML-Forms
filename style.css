@@ -1,0 +1,257 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: inherit;
+  font-family: AvenirNext, Avenir, Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: rgb(82, 82, 82);
+}
+
+html {
+  font-size: 10px;
+}
+
+.container {
+  padding: 1rem 3rem 1rem 1rem;
+  background: #eceef1;
+}
+
+.sign-div {
+  display: grid;
+  grid-template: auto/auto auto;
+  justify-content: end;
+  align-items: center;
+  justify-items: center;
+  font-size: 1.2rem;
+}
+
+.sign-in-text {
+  padding-right: 10px;
+}
+
+a {
+  font-size: 1.2rem;
+  color: #0077c5;
+  text-decoration: none;
+  margin: 0 auto;
+}
+
+.sign-div a {
+  color: #0077c5;
+}
+
+.sign-in-btn {
+  width: 101px;
+  height: 34px;
+  background-color: #0077c5;
+  border-radius: 4px;
+  border: 1px solid #4c4c4c;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#btn-icon {
+  font-size: 15px;
+}
+
+#btn-text {
+  font-size: 14px;
+}
+
+.logo-container {
+  padding-top: 32px;
+}
+
+.logo-img {
+  width: 118px;
+  height: 35px;
+  background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/ecosystem_logos_new-a1ca21cc.png);
+  margin: 0 auto;
+}
+
+.logo-1 {
+  width: 70px;
+  height: 30px;
+  background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/ecosystem_logos_new-a1ca21cc.png);
+  background-position: -254px 30px;
+}
+
+.logo-2 {
+  width: 125px;
+  height: 30px;
+  background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/ecosystem_logos_new-a1ca21cc.png);
+  background-position: -115px 30px;
+}
+
+.logo-3 {
+  width: 100px;
+  height: 30px;
+  background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/ecosystem_logos_new-a1ca21cc.png);
+  background-position: 0 30px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+}
+
+.form-container {
+  margin: 0 auto;
+  border: 1px solid #afafaf;
+  border-radius: 2px;
+  background: #fff;
+  width: 389px;
+}
+
+form {
+  padding: 30px 25px 0 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.top-text {
+  margin: 0 auto;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10px;
+}
+
+.top-text span {
+  font-size: 24px;
+  margin: 0 auto;
+}
+
+.top-text p {
+  font-size: 14px;
+  color: #4c4c4c;
+  margin: 0 auto;
+}
+
+form label {
+  font-size: 14px;
+  color: #404040;
+  font-weight: 400px;
+  padding: 30px 0 10px 0;
+}
+
+form input {
+  width: 332px;
+  height: 35px;
+  border: 1px solid #afafaf;
+  border-radius: 3px;
+}
+
+.password-box {
+  width: 332px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: 1px solid #afafaf;
+  border-radius: 3px;
+  align-items: center;
+}
+
+#password {
+  width: 300px;
+  border: none;
+}
+
+#pass-icon {
+  font-size: 25px;
+  color: gainsboro;
+}
+
+fieldset {
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+#lock-icon {
+  font-size: medium;
+}
+
+#crt-account {
+  font-size: 16px;
+}
+
+.small-logos {
+  padding: 20px;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+.form-footer {
+  background-color: #eceef1;
+  text-align: center;
+  margin: 0 -25px 0;
+  padding: 20px;
+}
+
+footer {
+  font-size: 1.2rem;
+  background: #eceef1;
+  text-align: center;
+  color: #505050;
+  line-height: 18px;
+  padding: 30px;
+}
+
+footer li {
+  padding: 0 6px;
+}
+
+#footer-links1,
+#footer-links2,
+#footer-links3 {
+  color: #505050;
+}
+
+.create-btn {
+  width: 332px;
+  height: 44px;
+  background-color: #0077c5;
+  border-radius: 4px;
+  border: 1px solid #4c4c4c;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: white;
+}
+
+.btn-type {
+  color: white;
+  margin-right: 7px;
+}
+
+.advice {
+  text-align: center;
+  padding: 40px 28px;
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+
+aside {
+  float: right;
+  width: 140px;
+  height: 40px;
+  background-color: #6b6b6b;
+  border-radius: 3px;
+  display: grid;
+  align-items: center;
+}
+
+#priv-sett {
+  color: ghostwhite;
+  font-size: 14px;
+}

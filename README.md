@@ -1,20 +1,36 @@
 # HTML-Forms
-Second Microverse Collaborative Project (HTML&CSS)
+This project consists of building an HTML page and form that matches the INTUIT Sign Up page.
 
-This is our second Collaborative Project. Hope everything turns out ok with this README file. :)
+# Built With
+- HTML
+- CSS
 
-Built With
 
-HTML
-CSS
-Authors 👤 Daniel Santander
+# Authors
+👤 Daniel Santander
 
-Github: @dansantander Twitter: @pordios_cero Linkedin: https://www.linkedin.com/in/daniel-santander-118ab5145/
+- Github: @dansantander
+- Twitter: @pordios_cero
+- Linkedin: linkedin
 
-👤 María de los Ángeles Hinojosa Pretell
 
-Github: @angelesh1995 Twitter: @Maria_AngelesxD Linkedin: https://www.linkedin.com/in/maria-de-los-angeles-hinojosa-pretell-ab761019a/
+👤 María de los Angeles Hinojosa Pretell
 
-Show your support
+- Github: @angelesh1995
+- Twitter: @Maria_AngelesxD
+- Linkedin: linkedin
 
-Give a ⭐️ if you like this project!
+# Contributing
+Contributions, issues and feature requests are welcome!
+Feel free to check the issues page.
+
+# Show your support
+- Give a ⭐️ if you like this project!
+
+
+# Acknowledgments
+Thanks to anyone whose code was used for inspiration.
+
+
+# License
+This project is MIT licensed.
