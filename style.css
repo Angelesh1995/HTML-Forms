@@ -53,6 +53,14 @@ a {
   justify-content: center;
 }
 
+#btn-icon {
+  font-size: 15px;
+}
+
+#btn-text {
+  font-size: 14px;
+}
+
 .logo-container {
   padding-top: 32px;
 }
@@ -155,12 +163,25 @@ form input {
   border: none;
 }
 
+#pass-icon {
+  font-size: 25px;
+  color: gainsboro;
+}
+
 fieldset {
   border: none;
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding-bottom: 30px;
+}
+
+#lock-icon {
+  font-size: medium;
+}
+
+#crt-account {
+  font-size: 16px;
 }
 
 .small-logos {
@@ -228,4 +249,9 @@ aside {
   border-radius: 3px;
   display: grid;
   align-items: center;
+}
+
+#priv-sett {
+  color: ghostwhite;
+  font-size: 14px;
 }
