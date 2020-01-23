@@ -9,16 +9,16 @@
   color:rgb(82, 82, 82);
 }
 
-html{
+html {
   font-size:10px;
 }
 
-.container{
+.container {
   padding:1rem 3rem 1rem 1rem;
   background:#eceef1;
 }
 
-.sign-div{
+.sign-div {
   display:grid;
   grid-template:auto/auto auto;
   justify-content:end;
@@ -27,15 +27,15 @@ html{
   font-size:1.2rem;
 }
 
-.sign-in-text{
+.sign-in-text {
   padding-right:10px;
 }
 
-.sign-div a{
+.sign-div a {
   color:#0077c5;
 }
 
-.sign-in-btn{
+.sign-in-btn {
   width:101px;
   height:34px;
   background-color:#0077c5;
@@ -46,47 +46,47 @@ html{
   justify-content:center;
 }
 
-.logo-container{
+.logo-container {
   padding-top:32px;
 }
 
-.logo-img{
+.logo-img {
   width:118px;
   height:35px;
   background-image:url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/ecosystem_logos_new-a1ca21cc.png);
   margin:0 auto;
 }
 
-.logo-1{
+.logo-1 {
   width:70px;
   height:30px;
   background-image:url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/ecosystem_logos_new-a1ca21cc.png);
   background-position:-254px 30px;
 }
 
-.logo-2{
+.logo-2 {
   width:125px;
   height:30px;
   background-image:url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/ecosystem_logos_new-a1ca21cc.png);
   background-position:-115px 30px;
 }
 
-.logo-3{
+.logo-3 {
   width:100px;
   height:30px;
   background-image:url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/ecosystem_logos_new-a1ca21cc.png);
   background-position:0px 30px;
 }
 
-ul{
+ul {
   list-style-type:none;
 }
 
-li{
+li {
   display:inline-block;
 }
 
-.form-container{
+.form-container {
   margin:0 auto;
   border:1px solid #afafaf;
   border-radius:2px;
@@ -94,14 +94,14 @@ li{
   width:389px;
 }
 
-form{
+form {
   padding:30px 25px 0px 25px;
   display:flex;
   flex-direction:column;
   justify-content:center;
 }
 
- .top-text{
+ .top-text {
   margin:0 auto;
   border:none;
   display:flex; 
@@ -109,32 +109,32 @@ form{
   padding-bottom:10px;
 }
 
-.top-text span{
+.top-text span {
   font-size:24px;
   margin:0 auto;
 }
 
-.top-text p{
+.top-text p {
   font-size:14px;
   color:#4c4c4c;
   margin:0 auto;
 }
 
-form label{
+form label {
   font-size:14px;
   color:#404040;
   font-weight:400px;
   padding:30px 0px 10px 0px;
 }
 
-form input{
+form input {
   width:332px;
   height:35px;
   border:1px solid #afafaf;
   border-radius:3px;
 }
 
-.password-box{
+.password-box {
   width:332px;
   display:grid;
   grid-template-columns:1fr 1fr;
@@ -143,41 +143,41 @@ form input{
   align-items:center;
 }
 
-#password{
+#password {
   width:300px;
   border:none;
 }
 
-a{
+a {
   font-size:1.2rem;
   color:#0077c5;
   text-decoration:none;
   margin:0 auto;
 }
 
-fieldset{
+fieldset {
   border:none;
   display:flex; 
   flex-direction:column;
   justify-content:center;
   padding-bottom:30px;
-} 
+}
 
-.small-logos{
+.small-logos {
   padding:20px;
   display:grid;
   align-items:center;
   justify-items:center;
 }
 
-.form-footer{
+.form-footer {
   background-color:#eceef1;
   text-align:center;
   margin:0px -25px 0px;
   padding:20px;
 }
 
-footer{
+footer {
   font-size:1.2rem;
   background:#eceef1;
   text-align:center;
@@ -186,15 +186,15 @@ footer{
   padding:30px;
 }
 
-footer li{
+footer li {
   padding:0px 6px;
 }
 
-#footer-links1, #footer-links2, #footer-links3{
+#footer-links1, #footer-links2, #footer-links3 {
   color:#505050;
 }
 
-.create-btn{
+.create-btn {
   width:332px;
   height:44px;
   background-color:#0077c5;
@@ -203,23 +203,22 @@ footer li{
   display:flex;
   flex-direction:row;
   justify-content:center;
-  color:white;
-  
+  color:white; 
 }
 
-.btn-type{
+.btn-type {
   color:white;
   margin-right:7px;
 }
 
-.advice{
+.advice {
   text-align:center;
   padding:40px 28px;
   font-size:1.2rem;
   line-height:2rem;
 }
 
-aside{
+aside {
   float:right;
   width:140px;
   height:40px;
